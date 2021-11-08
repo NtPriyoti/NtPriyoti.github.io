@@ -41,6 +41,9 @@ header {
   transform: scale(1.1);
   backface-visibility: hidden;
 }
+#mynavbar {
+  margin: 0 6rem 0 6rem;
+}
 
 .banner {
   padding-top: 80px;
@@ -60,4 +63,71 @@ header {
   line-height: 70px;
   color: #000000;
   font-weight: bold;
+}
+
+.banner-heading span {
+  font-size: 48px;
+  line-height: 70px;
+  font-weight: bold;
+  color: #21b573;
+}
+
+.banner-paragraph-2 {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 36px;
+  color: #6c6b6b;
+}
+
+.banner-btn {
+  padding: 12px 36px;
+  background: #21b573;
+  border-radius: 33px;
+  transition: 0.3s ease-in-out;
+  border: none;
+}
+
+.banner-btn:hover {
+  transform: scale(1.1);
+  background: #21b580;
+}
+
+.second-part {
+  padding: 50px 0px;
+}
+
+.icon-box {
+  width: 260px;
+  height: 270px;
+  background: #f0fff0;
+  border-radius: 10px;
+  margin-left: 2%;
+  margin-top: 2%;
+  transition: all 0.25s ease-in-out;
+}
+
+.icon-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+.icon {
+  width: 60px;
+  height: 85px;
+}
+
+.icon-heading {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  color: #413960;
+  padding-top: 20px;
+}
+
+.icon-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #585859;
 }
