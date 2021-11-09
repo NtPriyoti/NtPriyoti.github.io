@@ -96,6 +96,11 @@ header {
   padding: 50px 0px;
 }
 
+.modal-body {
+  display: flex;
+  justify-content: center;
+}
+
 .icon-box {
   width: 260px;
   height: 270px;
